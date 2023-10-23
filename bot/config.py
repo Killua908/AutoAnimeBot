@@ -19,22 +19,22 @@ from decouple import config
 class Var:
     # Telegram Credentials
 
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = config("API_ID", default=27108998, cast=int)
+    API_HASH = config("API_HASH", default="f4fc03493766db361d7e85ed8974fe2f")
+    BOT_TOKEN = config("BOT_TOKEN", default=6068705272:AAE2kbM0_PWvnKJlbJl4KJzm0RVR_IYjy5k)
 
     # Database Credentials
 
-    REDIS_URI = config("REDIS_URI", default=None)
-    REDIS_PASS = config("REDIS_PASSWORD", default=None)
+    REDIS_URI = config("REDIS_URI", default=redis-14575.c83.us-east-1-2.ec2.cloud.redislabs.com:14575)
+    REDIS_PASS = config("REDIS_PASSWORD", default=ewN4urDvP9qOG7t7aGFisSfjVq9ADyxO)
 
     # Channels Ids
 
-    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
-    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
-    LOG_CHANNEL = config("LOG_CHANNEL", default=0, cast=int)
+    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=-1002067313192, cast=int)
+    MAIN_CHANNEL = config("MAIN_CHANNEL", default=-1002027742156,cast=int)
+    LOG_CHANNEL = config("LOG_CHANNEL", default=-1001976332443, cast=int)
     CLOUD_CHANNEL = config("CLOUD_CHANNEL", cast=int)
-    OWNER = config("OWNER", default=0, cast=int)
+    OWNER = config("OWNER", default=5191566338, cast=int)
 
     # Other Configs
 
