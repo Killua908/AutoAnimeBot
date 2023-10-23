@@ -132,9 +132,9 @@ async def notify_about_me():
             return await pyro.start()
         btn = [
             [
-                Button.url("Developer 👨‍💻", url="t.me/kaif_00z"),
+                Button.url("Developer 👨‍💻", url="t.me/killua_og"),
                 Button.url(
-                    "Source Code 📂", url="https://github.com/kaif-00z/AutoAnimeBot/"
+                    "Main Channel 📂", url="https://t.me/anime_alliance"
                 ),
             ]
         ]
